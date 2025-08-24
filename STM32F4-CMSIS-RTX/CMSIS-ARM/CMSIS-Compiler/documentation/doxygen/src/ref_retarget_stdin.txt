@@ -1,0 +1,13 @@
+/**
+\defgroup stdin_api STDIN Interface
+\brief Minimalistic interface for redirecting stdin stream
+@{
+*/
+
+/**
+  \fn int stdin_getchar (void)
+*/
+
+/**
+@}
+*/

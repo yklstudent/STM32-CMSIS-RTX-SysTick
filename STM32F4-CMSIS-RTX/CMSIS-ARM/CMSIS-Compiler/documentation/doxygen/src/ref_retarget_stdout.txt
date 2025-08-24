@@ -1,0 +1,13 @@
+/**
+\defgroup stdout_api STDOUT Interface
+\brief Minimalistic interface for redirecting stdout stream
+@{
+*/
+
+/**
+  \fn int stdout_putchar (int ch)
+*/
+
+/**
+@}
+*/

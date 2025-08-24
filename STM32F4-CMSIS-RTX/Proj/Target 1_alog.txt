@@ -1,0 +1,44 @@
+[project_search_path]: ./
+[map_search_path]: ./
+[project_file_path]: .//STM32F4_RTX5_EVR.uvprojx
+[ map_file_path]: .//Listings/STM32F4_RTX5_EVR.map
+[parse_keil_map start]: 
+[Found keyword]: ----------Execution Region----------
+[name]:  ER_IROM1 
+[Exec base]: 0x8000000
+[Size]: 0x5820
+[Max]: 0x100000
+[Found keyword]: ----------Execution Region----------
+[name]:  RW_IRAM2 
+[Exec base]: 0x10000000
+[Size]: 0
+[Max]: 0x10000
+[Found keyword]: ----------Execution Region----------
+[name]:  RW_IRAM1 
+[Exec base]: 0x20000000
+[Size]: 0x9558
+[Max]: 0x20000
+[Found keyword]: ----------Execution Region----------
+[name]:  ARM_LIB_HEAD 
+[Exec base]: 0x20009558
+[Size]: 0x400
+[Max]: 0x400
+[Found keyword]: ----------Execution Region----------
+[name]:  ARM_LIB_STACK 
+[Exec base]: 0x2001fc00
+[Size]: 0x400
+[Max]: 0x400
+[parse_keil_map over printf bar]: 
+  RW_IRAM2 :0x10000000
+   64.00 KB :|____________________|    0.00 % (    0.00 KB /    64.00 KB) [65536 B]
+  RW_IRAM1 :0x20000000
+  128.00 KB :|¡ö¡ö¡ö¡ö¡ö_______________|   29.17 % (   37.34 KB /   128.00 KB) [92840 B]
+  ARM_LIB_HEAD :0x20009558
+    1.00 KB :|¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö|  100.00 % (    1.00 KB /     1.00 KB) [0 B]
+  ARM_LIB_STACK :0x2001fc00
+    1.00 KB :|¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö|  100.00 % (    1.00 KB /     1.00 KB) [0 B]
+  ER_IROM1 :0x8000000
+    1.00 MB :|____________________|    2.15 % (    0.02 MB /     1.00 MB) [1026016 B]
+[export csv]: ./Target 1_sort_by_flash.csv
+[export csv]: ./Target 1_sort_by_ram.csv
+[export xlsx]: Target 1_analysis.xlsx
